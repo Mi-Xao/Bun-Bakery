@@ -1,0 +1,25 @@
+.body {
+    position: absolute;
+    overflow: auto;
+    background-color: rgba(116, 45, 15, 0.624);
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    bottom: 20%;
+}
+  
+h {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#about {
+  padding: 50px;
+}
+
+#contact {
+  padding: 50px;
+}

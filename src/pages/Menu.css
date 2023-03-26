@@ -1,0 +1,96 @@
+#menu-navbar {
+  font-size: 40px;
+  padding: 20px 50px;
+  background-color: rgba(116, 45, 15, 0.624);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#menu-options {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu-li {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.menu-li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.menu-li a:hover {
+  color: rgb(223, 149, 97);
+}
+
+#menu-items {
+  overflow: auto;
+  background-color: rgba(116, 45, 15, 0.624);
+  padding: 40px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  right: 10%;
+  bottom: 10%;
+}
+
+#menu-header {
+    font-size: 40px;
+}
+
+#menu-body {
+  top: 20%;
+  left: 25%;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.menu-title {
+  font-size: 50px;
+}
+
+.menu-item {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item-img {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.item-text {
+  word-wrap: break-all;
+}
+
+.menu-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 1170px;
+} 
+
+.item-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item-price {
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.item-desc {
+  font-size: 17px;
+  color: rgb(233, 211, 201);
+}
